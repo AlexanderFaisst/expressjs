@@ -11,7 +11,7 @@ router.get('/speakers', function(req, res) {
   });
 
   res.render('speakers', {
-    pageTitle: 'Speakers',
+    pageTitle: 'Nu er det mig der siger noget! Lyt!',
     artwork: pagePhotos,
     speakers: pageSpeakers,
     pageID: 'speakerList'

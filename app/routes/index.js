@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
   });
 
   res.render('index', {
-    pageTitle: 'Home',
+    pageTitle: 'IStoleTheShow',
     artwork: pagePhotos,
     speakers: pageSpeakers,
     pageID: 'home'
